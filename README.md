@@ -16,6 +16,6 @@ Entrepreneurs can directly list and categorize their products and services on ou
 Design and Development:
 The design specification includes determining the functions to fill in the gaps we choose to address. We are designing role-based registration and logins so specific categories of users can access features, respectively.
 As an example, entrepreneurs were identified as the primary users of our platform. We divided them into two categories, i.e., excisting, and start-up entrepreneurs, so that features could be optimized for them.
-Accordingly, senior, and small-scale entrepreneurs should have access to functions such as consultation, networking, a list of products and services, and a blog page. However, all functions except listing products are available to startup entrepreneurs who want to start new businesses. Likewise, we need to conduct the correct systems thinking while tapping into relevant functions to solve problems that we are only focused on.
+Accordingly, senior, and small-scale entrepreneurs should have access to functions such as consultation, networking, a list of products and services, and a blog page. However, all functions except listing products are available to startup entrepreneurs who want to start new businesses.
 
 TOP CONTRIBUTORS :  WIJESEKARA MUDIYANSELAGE JAYODYA METHMAL WISHWASARA  ,SAMARAKOON ARACHCHIGE ISURIKA LAKSHANI , ANNIKA LARA GRAY 
