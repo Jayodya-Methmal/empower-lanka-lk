@@ -18,4 +18,4 @@ The design specification includes determining the functions to fill in the gaps 
 As an example, entrepreneurs were identified as the primary users of our platform. We divided them into two categories, i.e., excisting, and start-up entrepreneurs, so that features could be optimized for them.
 Accordingly, senior, and small-scale entrepreneurs should have access to functions such as consultation, networking, a list of products and services, and a blog page. However, all functions except listing products are available to startup entrepreneurs who want to start new businesses. Likewise, we need to conduct the correct systems thinking while tapping into relevant functions to solve problems that we are only focused on.
 
-TOP CONTRIBUTORS : Wijesekara Mudiyanselage Jayodya Methmal Wishwasara  ,Samarakoon Arachchige Isurika Lakshani , Annika Lara Gray 
+TOP CONTRIBUTORS :  WIJESEKARA MUDIYANSELAGE JAYODYA METHMAL WISHWASARA  ,SAMARAKOON ARACHCHIGE ISURIKA LAKSHANI , ANNIKA LARA GRAY 
