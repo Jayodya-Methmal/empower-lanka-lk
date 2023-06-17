@@ -1,0 +1,235 @@
+@import "../../style.scss";
+
+.profile {
+  @include themify($themes) {
+    background-color: themed("bgSoft");
+
+    .images {
+      width: 100%;
+      height: 300px;
+      position: relative;
+
+      .cover {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .profilePic {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+      }
+    }
+    .profileContainer {
+      padding: 20px 70px;
+
+      @include mobile {
+        padding: 10px;
+      }
+
+      @include tablet {
+        padding: 20px;
+      }
+
+      .uInfo {
+        height: fit-content;
+        -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        border-radius: 20px;
+        background-color: themed("bg");
+        color: themed("textColor");
+        padding: 50px;
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        @include mobile {
+          flex-direction: column;
+          height: 30vh;
+          padding: 20px;
+          margin-top: 100px;
+        }
+        .center {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+          color: black;
+
+          .uploadButton {
+            margin: 10px;
+            padding: 8px;
+            background-color: #9a0f0f;
+          }
+
+          .userName {
+            font-size: 20px;
+            font-weight: 500;
+          }
+
+          .userRoll {
+            font-size: 14px;
+          }
+
+          .info {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .item {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              color: themed("textColorSoft");
+
+              span {
+                font-size: 12px;
+              }
+            }
+          }
+          button {
+            border: none;
+            background-color: #5271ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            max-height: 500px;
+
+            input {
+              border: none;
+              border-bottom: 1px solid lightgray;
+              padding: 10px 10px;
+            }
+
+            .error {
+              font-size: small;
+              font-style: italic;
+            }
+
+            textarea {
+              border: none;
+              border-bottom: 1px solid lightgray;
+              padding: 30px 10px;
+              margin-top: -20px;
+            }
+
+            .footerN {
+              display: flex;
+              justify-content: space-between;
+              margin-top: 10px;
+
+              button {
+                width: 80%;
+                padding: 10px;
+                border: none;
+                background-color: #9a0f0f;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+              }
+              span {
+                font-weight: bold;
+                cursor: pointer;
+                color: #9a0f0f;
+              }
+            }
+          }
+        }
+      }
+    }
+    .userDetails {
+      margin: 10px;
+      padding: 10px;
+      .PInfo {
+        .userForm {
+          h2 {
+            margin-bottom: 20px;
+            color: rgb(86, 86, 86);
+          }
+          .moreDetails {
+            margin-top: 30px;
+          }
+          .usual{
+            .foot {
+              display: flex;
+              flex-direction: column;
+              .error {
+                color: red;
+                font-size: small;
+                font-style: italic;
+                text-align: center;
+              }
+              button {
+                width: 97.5%;
+                margin: 10px;
+                padding: 8px;
+                background-color: #9a0f0f;
+                color: white;
+                border: none;
+                font-weight: bold;
+                border-radius: 10px;
+              }
+            }
+          }
+          .element {
+            display: flex;
+            margin: 5px;
+            padding: 5px;
+            span {
+              padding: 7px;
+              font-size: 14px;
+              width: 300px;
+              display: inline-block;
+            }
+            input,
+            textArea {
+              padding: 7px;
+              width: 100%;
+              border: none;
+            }
+          }
+          .extra {
+            .foot {
+              display: flex;
+              flex-direction: column;
+              .error {
+                color: red;
+                font-size: small;
+                font-style: italic;
+                text-align: center;
+              }
+              button {
+                width: 97.5%;
+                margin: 10px;
+                padding: 8px;
+                background-color: #9a0f0f;
+                color: white;
+                border: none;
+                font-weight: bold;
+                border-radius: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

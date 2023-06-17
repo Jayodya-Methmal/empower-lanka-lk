@@ -1,0 +1,118 @@
+.login {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: white;
+
+    .left {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://assets.entrepreneur.com/content/3x2/2000/20191101154159-GettyImages-972581734.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+      flex-basis: 70% !important;
+
+      h1 {
+        padding-top: 20%;
+        font-size: clamp(24px, 5vw, 36px);
+        line-height: 1.2;
+      }
+
+      p {
+        font-size: clamp(16px, 3vw, 24px);
+      }
+
+      span {
+        font-size: clamp(14px, 2vw, 20px);
+      }
+
+      button {
+        width: 50%;
+        max-width: 200px;
+        padding: 10px;
+        border: none;
+        background-color: #9a0f0f;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      flex-basis: 30% !important;
+
+      h1 {
+        color: #000000;
+        font-size: clamp(24px, 5vw, 36px);
+        line-height: 1.2;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+        }
+
+        button {
+          width: 50%;
+          max-width: 200px;
+          padding: 10px;
+          border: none;
+          background-color: #9a0f0f;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+
+        .error {
+          font-size: small;
+          font-style: italic;
+          color: red;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .card {
+      flex-direction: row;
+      height: auto;
+
+      .left {
+        height: auto;
+        flex-basis: 60%;
+      }
+
+      .right {
+        flex-basis: 40%;
+      }
+    }
+  }
+}
