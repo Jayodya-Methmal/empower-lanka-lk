@@ -1,7 +1,7 @@
 import { db } from "../connect.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import nodemailer from "nodemailer";
+// import nodemailer from "nodemailer";
 
 import {
   registerValidation,
